@@ -3,12 +3,14 @@ import Particles from './Particles';
 import discord from './discord.png';
 import './App.css';
 import Logo from './Logo';
+import Countdown from './Countdown';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Logo />
+        <Countdown />
         <div className="Join">
           <div className="Join-soon">Coming soon.</div>
           <a
