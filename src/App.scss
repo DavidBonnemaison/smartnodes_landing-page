@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500');
+
+.App {
+  text-align: center;
+}
+
+.Logo img {
+  max-width: 100%;
+  width: 300px;
+  margin-top: 20px;
+  user-select: none;
+}
+
+.Logo-baseline {
+  font-family: 'Teko', sans-serif;
+  color: #abad6d;
+  font-size: 100px;
+
+  @media (max-width: 700px) {
+    font-size: 15vw;
+  }
+}
+
+.Logo-subline {
+  color: #abad6d;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.App-discord {
+}
+
+.App-discord img {
+  user-select: none;
+  max-width: 100%;
+  width: 100px;
+  transition: 250ms all ease-in-out;
+}
+
+.App-discord img:hover {
+  transform: scale(1.3);
+}
+
+.App-logo,
+.App-discord {
+  display: block;
+  margin: 0 auto;
+}
+
+.Join {
+  border: 4px solid #555;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 20px;
+  bottom: 30px;
+  margin: 40px auto;
+}
+
+.Join a {
+  text-decoration: none;
+}
+
+.Join-soon {
+  color: #aaa;
+}
+
+.Join-text {
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  color: #999;
+  text-decoration: none;
+  font-size: 30px;
+}
